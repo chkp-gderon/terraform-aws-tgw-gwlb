@@ -1,0 +1,10 @@
+{
+  "name": "AWS Terraform Lab",
+  "build": {
+    "dockerfile": ".devcontainer/aws-terraform-dev-container/Dockerfile",
+    "context": "."
+  },
+  "features": {},
+  "forwardPorts": [],
+  "postCreateCommand": "echo 'Terraform environment ready!'"
+}
